@@ -25,7 +25,7 @@
                 <h3><?= $question_title; ?> </h3>
                 <p><?= $question_content; ?></p>
                 <hr> 
-                <small><?= $question_pseudo_author.' '. $question_publication_date;?></small>
+                <small><?='<a href="profile.php?id='.$question_id_author.'">' .$question_pseudo_author.'</a> '. $question_publication_date;?></small>
             </section>
 
             <section class="show-answers">

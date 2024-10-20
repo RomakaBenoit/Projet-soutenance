@@ -41,7 +41,7 @@
 
                     </div>
                     <div class="card-footer">
-                        <h6>Publié par <?=  $question['pseudo_auteur'];?> le <?=  $question['date_publication'];?></h6>
+                        <h6>Publié par <a href="profile.php?id=<?=  $question['id_auteur'];?>"><?=  $question['pseudo_auteur'];?></a> le <?=  $question['date_publication'];?></h6>
 
                     </div>
                 </div>
