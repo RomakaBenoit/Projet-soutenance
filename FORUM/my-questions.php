@@ -14,7 +14,7 @@
         //affichage  de toutes les questions de l'utilisateur dans une cart en boots.
         while($question = $getAllMyQuestion->fetch()){
             ?>
-            <i><div class="card" >
+            <i><div class="card">
                 <h4 class="card-header">
                 <a href="article.php?id=<?= $question['id']; ?>">
                         <?=  $question['titre'];?>
@@ -30,7 +30,7 @@
                     <a href="actions/questions/deleteQuestionAction.php?id=<?= $question['id']; ?>" class="btn btn-danger">Supprimer la question la question</a>
 
                 </div>
-                
+                 
             </div>
             <br>
             <?php
